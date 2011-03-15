@@ -1,5 +1,5 @@
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-XCode 4 Assembler Project (Minimal + Standart Project Settings)
+XCode 4 Assembler Project Template (Minimal + Standart Project Settings)
 
 Import Standart Settings from com.apple.dt.unit.base, com.apple.dt.unit.Macbase
 
@@ -14,3 +14,6 @@ Create Target Build Phases: Source, Frameworks.
 
 About XCode 4 Project Templates:
 http://snipt.net/yonishin/about-xcode-4-project-template
+
+Download and move Folder "Assembler Command Line Tool.xctemplate" to
+"~/Library/Developer/Xcode/Templates"
