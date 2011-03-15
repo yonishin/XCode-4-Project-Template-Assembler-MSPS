@@ -1,0 +1,16 @@
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+XCode 4 Assembler Project (Minimal + Standart Project Settings)
+
+Import Standart Settings from com.apple.dt.unit.base, com.apple.dt.unit.Macbase
+
+Create one source file "ProjectName.s"
+
+Write to source file comment, simple example.
+
+Set Project Build Settings: GCC_VERSION = 4.2, LINK_WITH_STANDARD_LIBRARIES = NO
+
+Create Target Build Phases: Source, Frameworks.
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+About XCode 4 Project Templates:
+http://snipt.net/yonishin/about-xcode-4-project-template
