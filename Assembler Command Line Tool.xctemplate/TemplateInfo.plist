@@ -16,7 +16,7 @@
 .intel_syntax
 
 .data
-msg: .ascii &quot;Write string 0-1024 lenght: \n&quot;
+msg: .ascii &quot;Hello, World!\n&quot;
 msglen: .long . - msg
 
 .text
@@ -63,10 +63,6 @@ start:
 	<key>Targets</key>
 	<array>
 		<dict>
-			<key>Frameworks</key>
-			<array>
-				<string>System</string>
-			</array>
 			<key>BuildPhases</key>
 			<array>
 				<dict>
@@ -77,6 +73,10 @@ start:
 					<key>Class</key>
 					<string>Frameworks</string>
 				</dict>
+			</array>
+			<key>Frameworks</key>
+			<array>
+				<string>System</string>
 			</array>
 			<key>ProductType</key>
 			<string>com.apple.product-type.tool</string>
