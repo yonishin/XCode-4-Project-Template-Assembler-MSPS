@@ -63,6 +63,10 @@ start:
 	<key>Targets</key>
 	<array>
 		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>System</string>
+			</array>
 			<key>BuildPhases</key>
 			<array>
 				<dict>
