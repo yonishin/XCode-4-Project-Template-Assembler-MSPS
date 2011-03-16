@@ -10,6 +10,8 @@ Write to source file comment, simple example.
 Set Project Build Settings: GCC_VERSION = 4.2, LINK_WITH_STANDARD_LIBRARIES = NO
 
 Create Target Build Phases: Source, Frameworks.
+
+Link binary with library: System Frameworks.
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 About XCode 4 Project Templates:
